@@ -1,11 +1,14 @@
 import React from "react";
+import Banner from "./components/ui/Banner";
+import Features from "./components/ui/Features";
 
 const HomePage = () => {
+  console.log("Hellooooooooooooooooooiii am heref!!!!!!!!");
+
   return (
     <div>
-      <h1 className="text-5xl text-center mt-20 ">
-        well come to my fitness gym paga
-      </h1>
+      <Banner />
+      <Features />
     </div>
   );
 };
