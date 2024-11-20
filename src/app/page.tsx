@@ -3,8 +3,6 @@ import Banner from "./components/ui/Banner";
 import Features from "./components/ui/Features";
 
 const HomePage = () => {
-  console.log("Hellooooooooooooooooooiii am heref!!!!!!!!");
-
   return (
     <div>
       <Banner />

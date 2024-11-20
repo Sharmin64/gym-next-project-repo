@@ -1,9 +1,10 @@
+import Button from "@/app/ui/Button";
 import Link from "next/link";
 import React from "react";
 
 const Navber = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-blue-200 z-50 fixed top-0">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,7 +25,7 @@ const Navber = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-blue-200 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black"
           >
             <li>
               <Link href={"/"}>Home</Link>
@@ -59,22 +60,22 @@ const Navber = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-2xl">Fit🏋🏻‍♀️Fine</a>
+        <a className="btn btn-ghost text-2xl text-black">Fit🏋🏻‍♀️Fine</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-black">
           <li>
             <Link href={"/"}>Home</Link>
           </li>
           <li>
             <details>
               <summary>Classes</summary>
-              <ul className="p-2">
+              <ul className="p-2 bg-transparent">
                 <li>
-                  <a>Class</a>
+                  <Link href={"/class"}>Class</Link>
                 </li>
                 <li>
-                  <a>Class Details</a>
+                  <Link href={"class-details"}>Class Details</Link>
                 </li>
               </ul>
             </details>
@@ -82,12 +83,12 @@ const Navber = () => {
           <li>
             <details>
               <summary>Services</summary>
-              <ul className="p-2">
+              <ul className="p-2 bg-transparent">
                 <li>
-                  <a>Features</a>
+                  <Link href={"/features"}>Features</Link>
                 </li>
                 <li>
-                  <a>Details</a>
+                  <Link href={"/details"}>Details</Link>
                 </li>
               </ul>
             </details>
@@ -101,7 +102,9 @@ const Navber = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Join Now</a>
+        <Link href={"/class"}>
+          <Button description="Join Now" />
+        </Link>
       </div>
     </div>
   );
