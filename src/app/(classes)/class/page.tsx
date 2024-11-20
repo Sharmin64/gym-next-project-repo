@@ -1,4 +1,4 @@
-import Button from "@/app/ui/Button";
+import Button from "@/app/commonui/Button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -17,7 +17,7 @@ const classes = [
     title: "Strength Training",
     description:
       "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
-    icon: "🏋️",
+    icon: "💪🏻",
     image: "https://i.postimg.cc/wTJKs8zf/weights.webp",
     progress: 60,
   },

@@ -1,11 +1,13 @@
-import Button from "@/app/ui/Button";
+import Button from "@/app/commonui/Button";
 import Link from "next/link";
 import React from "react";
 
-const Navber = () => {
+const Navbar = () => {
   return (
-    <div className="navbar bg-blue-200 z-50 fixed top-0">
+    <div className="navbar bg-blue-200 z-50 fixed top-0 w-full">
+      {/* Navbar Start */}
       <div className="navbar-start">
+        {/* Mobile Dropdown */}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -31,67 +33,100 @@ const Navber = () => {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <a>Classes</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <details>
+                <summary>Classes</summary>
+                <ul className="p-2 bg-blue-200">
+                  <li>
+                    <Link href={"/class"}>Class</Link>
+                  </li>
+                  <li>
+                    <Link href={"/class-details"}>Class Details</Link>
+                  </li>
+                </ul>
+              </details>
             </li>
             <li>
-              <a>Services</a>
-              <ul className="p-2">
-                <li>
-                  <a>Features</a>
-                </li>
-                <li>
-                  <a>Details</a>
-                </li>
-              </ul>
+              <details>
+                <summary>Services</summary>
+                <ul className="p-2 bg-blue-200">
+                  <li>
+                    <Link href={"/features"}>Features</Link>
+                  </li>
+                  <li>
+                    <Link href={"/details"}>Details</Link>
+                  </li>
+                </ul>
+              </details>
             </li>
             <li>
-              <a>About Us</a>
+              <Link href={"/about"}>About Us</Link>
             </li>
             <li>
-              <a>Contact Us</a>
+              <Link href={"/contact"}>Contact Us</Link>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-2xl text-black">Fit🏋🏻‍♀️Fine</a>
+        {/* Brand Logo */}
+        <Link href={"/"} className="btn btn-ghost text-2xl text-black">
+          Fit🏋🏻‍♀️Fine
+        </Link>
       </div>
+
+      {/* Navbar Center for Desktop */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-black">
-          <li>
+          <li className="relative group">
             <Link href={"/"}>Home</Link>
           </li>
-          <li>
-            <details>
-              <summary>Classes</summary>
-              <ul className="p-2 bg-transparent">
-                <li>
-                  <Link href={"/class"}>Class</Link>
-                </li>
-                <li>
-                  <Link href={"class-details"}>Class Details</Link>
-                </li>
-              </ul>
-            </details>
+          <li className="relative group">
+            <span className="hover:text-blue-500 cursor-pointer">Classes</span>
+            <ul
+              className="absolute left-0 mt-2 w-40 p-2 bg-white border rounded shadow-lg 
+              transform scale-95 opacity-0 group-hover:scale-y-100 group-hover:opacity-100 
+              group-hover:translate-y-8 transition-all duration-500 ease-in-out "
+            >
+              <li>
+                <Link
+                  href={"/class"}
+                  className="block px-4 py-2 hover:bg-gray-100"
+                >
+                  Class
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/class-details"}
+                  className="block px-4 py-2 hover:bg-gray-100"
+                >
+                  Class Details
+                </Link>
+              </li>
+            </ul>
           </li>
-          <li>
-            <details>
-              <summary>Services</summary>
-              <ul className="p-2 bg-transparent">
-                <li>
-                  <Link href={"/features"}>Features</Link>
-                </li>
-                <li>
-                  <Link href={"/details"}>Details</Link>
-                </li>
-              </ul>
-            </details>
+          <li className="relative group">
+            <span className="hover:text-blue-500 cursor-pointer">Services</span>
+            <ul
+              className="absolute left-0 mt-2 w-40 p-2 bg-white border rounded shadow-lg 
+              transform scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 
+              group-hover:translate-y-8 transition-all duration-500 ease-in-out"
+            >
+              <li>
+                <Link
+                  href={"/features"}
+                  className="block px-4 py-2 hover:bg-gray-100"
+                >
+                  Features
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/details"}
+                  className="block px-4 py-2 hover:bg-gray-100"
+                >
+                  Details
+                </Link>
+              </li>
+            </ul>
           </li>
           <li>
             <Link href={"/about"}>About Us</Link>
@@ -101,6 +136,8 @@ const Navber = () => {
           </li>
         </ul>
       </div>
+
+      {/* Navbar End */}
       <div className="navbar-end">
         <Link href={"/class"}>
           <Button description="Join Now" />
@@ -110,4 +147,4 @@ const Navber = () => {
   );
 };
 
-export default Navber;
+export default Navbar;
