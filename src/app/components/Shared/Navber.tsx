@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-blue-200 z-50 fixed top-0 w-full">
+    <div className="navbar bg-[#ff9a7a] z-50 fixed top-0 w-full">
       {/* Navbar Start */}
       <div className="navbar-start">
         {/* Mobile Dropdown */}
@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-blue-200 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black"
+            className="menu menu-sm dropdown-content bg-[#ffcdbd] rounded-box z-[1] mt-3 w-52 p-2 shadow text-black"
           >
             <li>
               <Link href={"/"}>Home</Link>
@@ -79,9 +79,9 @@ const Navbar = () => {
             <Link href={"/"}>Home</Link>
           </li>
           <li className="relative group">
-            <span className="hover:text-blue-500 cursor-pointer">Classes</span>
+            <span className="hover:text-white cursor-pointer">Classes</span>
             <ul
-              className="absolute left-0 mt-2 w-40 p-2 bg-white border rounded shadow-lg 
+              className="absolute left-0 mt-2 w-40 p-2 bg-[#ffcdbd] border rounded shadow-lg 
               transform scale-95 opacity-0 group-hover:scale-y-100 group-hover:opacity-100 
               group-hover:translate-y-8 transition-all duration-500 ease-in-out "
             >
@@ -104,9 +104,9 @@ const Navbar = () => {
             </ul>
           </li>
           <li className="relative group">
-            <span className="hover:text-blue-500 cursor-pointer">Services</span>
+            <span className="hover:text-white cursor-pointer">Services</span>
             <ul
-              className="absolute left-0 mt-2 w-40 p-2 bg-white border rounded shadow-lg 
+              className="absolute left-0 mt-2 w-40 p-2 bg-[#ffcdbd] border rounded shadow-lg 
               transform scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 
               group-hover:translate-y-8 transition-all duration-500 ease-in-out"
             >
