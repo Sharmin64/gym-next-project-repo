@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#ff9a7a] z-50 fixed top-0 w-full">
+    <div className="navbar bg-[#ff9a7a] z-50 fixed top-0 mb-7 w-full ">
       {/* Navbar Start */}
       <div className="navbar-start">
         {/* Mobile Dropdown */}
@@ -54,6 +54,9 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link href={"/details"}>Details</Link>
+                  </li>
+                  <li>
+                    <Link href={"/pricing"}>PricingPlan</Link>
                   </li>
                 </ul>
               </details>
@@ -123,8 +126,12 @@ const Navbar = () => {
                   href={"/details"}
                   className="block px-4 py-2 hover:bg-gray-100"
                 >
+                  {" "}
                   Details
                 </Link>
+              </li>
+              <li>
+                <Link href={"/pricing"}>PricingPlan</Link>
               </li>
             </ul>
           </li>
