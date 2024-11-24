@@ -75,7 +75,7 @@ const ClassPage = () => {
                     ></progress>
                   </div>
                   <Link href={"/class-details"}>
-                    <Button description="see info" />
+                    <Button buttonName="see info" />
                   </Link>
                 </div>
               </div>

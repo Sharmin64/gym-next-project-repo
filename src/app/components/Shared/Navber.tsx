@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#ff9a7a] z-50 fixed top-0 mb-7 w-full ">
+    <div className="navbar bg-[#ffab91] z-50 fixed top-0 mb-7 w-full ">
       {/* Navbar Start */}
       <div className="navbar-start">
         {/* Mobile Dropdown */}
@@ -147,7 +147,7 @@ const Navbar = () => {
       {/* Navbar End */}
       <div className="navbar-end">
         <Link href={"/class"}>
-          <Button description="Join Now" />
+          <Button buttonName="Join Now" />
         </Link>
       </div>
     </div>

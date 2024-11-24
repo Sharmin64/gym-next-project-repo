@@ -1,6 +1,7 @@
 import Image from "next/image";
 import bannerImg from "@/assets/banner/banner-3.avif";
 import Link from "next/link";
+import Button from "@/app/commonui/Button";
 
 const Banner = () => {
   return (
@@ -27,9 +28,7 @@ const Banner = () => {
           </p>
         </div>
         <Link href={"/class"}>
-          <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 transition">
-            Join Us
-          </button>
+          <Button buttonName="Join Us" />
         </Link>
       </div>
     </div>

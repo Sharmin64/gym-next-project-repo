@@ -24,7 +24,7 @@ const PricingMemberPage: React.FC = () => {
               <li>Support for AWS, GCP, and Azure</li>
               <li>Delivered in 1 week</li>
             </ul>
-            <Button description="Join Class" />
+            <Button buttonName="Join Class" />
           </div>
 
           {/* Silver Plan */}
@@ -40,7 +40,7 @@ const PricingMemberPage: React.FC = () => {
               <li>Delivered in 1 week</li>
               <li>1-on-1 Personal training</li>
             </ul>
-            <Button description="Join Class" />
+            <Button buttonName="Join Class" />
           </div>
 
           {/* Gold Plan */}
@@ -56,7 +56,7 @@ const PricingMemberPage: React.FC = () => {
               <li>Delivered in 1 week</li>
               <li>Access to my online tutorials</li>
             </ul>
-            <Button description="Join Class" />
+            <Button buttonName="Join Class" />
           </div>
         </div>
       </div>
