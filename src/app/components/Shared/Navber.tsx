@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#ffab91] z-50 fixed top-0 mb-7 w-full ">
+    <div className="navbar bg-[#ffab91] z-50 fixed top-0 w-full ">
       {/* Navbar Start */}
       <div className="navbar-start">
         {/* Mobile Dropdown */}
@@ -41,6 +41,17 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link href={"/class-details"}>Class Details</Link>
+                  </li>
+                </ul>
+              </details>
+              <details>
+                <summary>Authentication</summary>
+                <ul className="p-2 bg-blue-200">
+                  <li>
+                    <Link href={"/login"}>Login</Link>
+                  </li>
+                  <li>
+                    <Link href={"/register"}>Sign Up</Link>
                   </li>
                 </ul>
               </details>
@@ -132,6 +143,31 @@ const Navbar = () => {
               </li>
               <li>
                 <Link href={"/pricing"}>PricingPlan</Link>
+              </li>
+            </ul>
+          </li>
+          <li className="relative group">
+            <span className="hover:text-white cursor-pointer">Auth</span>
+            <ul
+              className="absolute left-0 mt-2 w-40 p-2 bg-[#ffcdbd] border rounded shadow-lg 
+              transform scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 
+              group-hover:translate-y-8 transition-all duration-500 ease-in-out"
+            >
+              <li>
+                <Link
+                  href={"/login"}
+                  className="block px-4 py-2 hover:bg-gray-100"
+                >
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/register"}
+                  className="block px-4 py-2 hover:bg-gray-100"
+                >
+                  Sign Up
+                </Link>
               </li>
             </ul>
           </li>

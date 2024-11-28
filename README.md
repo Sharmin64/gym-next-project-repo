@@ -20,14 +20,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
@@ -45,7 +38,7 @@ ____ Features section integretion----
 The Feature Section of a fitness website should focus on providing a visually engaging and information-rich experience to highlight your core offerings. Here's what you can include for great UI rendering:
 
 1. Core Features
-Membership Plans: Display various membership tiers with pricing, features, and a "Join Now" button.
+Membership Plans: Display various membership tiers with pricing, features, and a "Join Now" button.----🏑👍
 Class Schedules: Interactive weekly schedules with filtering options (e.g., by time, class type, or instructor).
 Trainer Profiles: Showcase trainers with their expertise, certifications, and client reviews.
 Fitness Programs: Highlight different fitness programs like weight loss, strength training, yoga, etc.
