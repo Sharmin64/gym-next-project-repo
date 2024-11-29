@@ -39,7 +39,7 @@ The Feature Section of a fitness website should focus on providing a visually en
 
 1. Core Features
 Membership Plans: Display various membership tiers with pricing, features, and a "Join Now" button.----🏑👍
-Class Schedules: Interactive weekly schedules with filtering options (e.g., by time, class type, or instructor).
+Class Schedules: Interactive weekly schedules with filtering options (e.g., by time, class type, or instructor).👍🏑
 Trainer Profiles: Showcase trainers with their expertise, certifications, and client reviews.
 Fitness Programs: Highlight different fitness programs like weight loss, strength training, yoga, etc.
 2. Unique Selling Points (USPs)

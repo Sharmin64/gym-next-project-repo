@@ -28,7 +28,7 @@ const Banner = () => {
           </p>
         </div>
         <Link href={"/class"}>
-          <Button buttonName="Join Us" />
+          <Button buttonName="Join_Us" />
         </Link>
       </div>
     </div>

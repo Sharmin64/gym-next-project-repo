@@ -30,13 +30,13 @@ const ClassSchedule: React.FC<ClassScheduleProps> = ({ schedule }) => {
   });
 
   return (
-    <div className="p-4 bg-gray-100 rounded-lg shadow">
+    <div className="p-4 bg-[#ffcdbd] rounded-lg shadow">
       <h1 className="text-2xl font-bold text-center mb-6">
         Weekly Class Schedule
       </h1>
 
       {/* Filters */}
-      <div className="flex flex-wrap justify-center gap-4 mb-6">
+      <div className="flex flex-wrap justify-center gap-4 mb-6 hover:will-change-transform">
         <select
           className="p-2 border rounded"
           value={filters.time}

@@ -183,7 +183,7 @@ const Navbar = () => {
       {/* Navbar End */}
       <div className="navbar-end">
         <Link href={"/class"}>
-          <Button buttonName="Join Now" />
+          <Button buttonName="Join_Now" />
         </Link>
       </div>
     </div>

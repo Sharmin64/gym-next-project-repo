@@ -1,4 +1,5 @@
 import ClassSchedule from "@/app/components/homeui/ClassSchedule";
+import ScheduleImg from "@/app/components/homeui/ScheduleImg";
 import React from "react";
 
 const FeaturesPage = () => {
@@ -30,8 +31,9 @@ const FeaturesPage = () => {
       {/* <h1 className="text-5xl mt-24 bg-teal-400">
         Featre page will be render here..........
       </h1> */}
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-around">
         <ClassSchedule schedule={weeklySchedule} />
+        <ScheduleImg />
       </div>
     </>
   );

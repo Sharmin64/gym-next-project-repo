@@ -24,7 +24,7 @@ const PricingMemberPage: React.FC = () => {
               <li>Support for AWS, GCP, and Azure</li>
               <li>Delivered in 1 week</li>
             </ul>
-            <Button buttonName="Join Class" />
+            <Button buttonName="Join_Class" />
           </div>
 
           {/* Silver Plan */}
