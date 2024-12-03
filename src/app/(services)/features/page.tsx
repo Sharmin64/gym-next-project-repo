@@ -1,5 +1,5 @@
-import ClassSchedule from "@/app/components/homeui/ClassSchedule";
-import ScheduleImg from "@/app/components/homeui/ScheduleImg";
+import ClassSchedule from "@/app/commonui/ClassSchedule";
+import ScheduleImg from "@/app/commonui/ScheduleImg";
 import React from "react";
 
 const FeaturesPage = () => {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import scheduleImg from "../../../assets/bg-images/fitness-orange.jpg";
+import scheduleImg from "@/assets/bg-images/fitness-orange.jpg";
 
 const ScheduleImg = () => {
   return (

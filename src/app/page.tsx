@@ -1,13 +1,13 @@
 import React from "react";
 import Banner from "./components/homeui/Banner";
-import Features from "./components/homeui/Features";
+import FitnessHighlights from "./components/homeui/FitnessHighlights";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <Banner />
-      <Features />
-    </div>
+      <FitnessHighlights />
+    </>
   );
 };
 
