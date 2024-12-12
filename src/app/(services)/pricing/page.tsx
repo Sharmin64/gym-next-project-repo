@@ -1,6 +1,6 @@
 import Button from "@/app/commonui/Button";
 
-const PricingMemberPage: React.FC = () => {
+const PricingPage: React.FC = () => {
   return (
     <section className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 text-center">
@@ -64,4 +64,4 @@ const PricingMemberPage: React.FC = () => {
   );
 };
 
-export default PricingMemberPage;
+export default PricingPage;

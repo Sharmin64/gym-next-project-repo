@@ -2,7 +2,7 @@ import ClassSchedule from "@/app/commonui/ClassSchedule";
 import ScheduleImg from "@/app/commonui/ScheduleImg";
 import React from "react";
 
-const FeaturesPage = () => {
+const FeaturesPage: React.FC = () => {
   const weeklySchedule = [
     { day: "Monday", time: "Morning", classType: "Yoga", instructor: "Alice" },
     { day: "Monday", time: "Evening", classType: "Zumba", instructor: "Bob" },

@@ -64,13 +64,13 @@ const Navbar = () => {
                     <Link href={"/features"}>Features</Link>
                   </li>
                   <li>
-                    <Link href={"/feature-details"}>Feature Details</Link>
+                    <Link href={"/exploreFeature"}>Explore Feature</Link>
                   </li>
                   <li>
                     <Link href={"/pricing"}>PricingPlan</Link>
                   </li>
                   <li>
-                    <Link href={"/trainer-profile"}>Trainer Profile</Link>
+                    <Link href={"/trainerProfile"}>Trainer Profile</Link>
                   </li>
                 </ul>
               </details>
@@ -137,17 +137,17 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href={"/feature-details"}
+                  href={"/exploreFeature"}
                   className="block px-4 py-2 hover:bg-gray-100"
                 >
-                  Feature Details
+                  Explore Feature
                 </Link>
               </li>
               <li>
                 <Link href={"/pricing"}>PricingPlan</Link>
               </li>
               <li>
-                <Link href={"/trainer-profile"}>Trainer Profile</Link>
+                <Link href={"/trainerProfile"}>Trainer Profile</Link>
               </li>
             </ul>
           </li>
