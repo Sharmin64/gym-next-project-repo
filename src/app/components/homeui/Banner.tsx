@@ -22,12 +22,12 @@ const Banner = () => {
       {/* Content */}
       <div className="relative z-20 flex flex-col items-start pt-[12em] h-full px-8">
         <div className="text-white">
-          <h1 className="text-3xl font-bold">Build Your Strong Body!!!</h1>
+          <h1 className="text-5xl font-extrabold">Build Your Strong Body!!!</h1>
           <p className="mt-2 text-lg">
             Join us to explore more and grow together.
           </p>
         </div>
-        <Link href={"/class"}>
+        <Link href={"/class"} className="mt-4">
           <Button buttonName="Join_Us" />
         </Link>
       </div>

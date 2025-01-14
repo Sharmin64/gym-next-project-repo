@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 interface ButtonName {
   buttonName: string;
+  onClick?: () => void;
 }
 
 const Button = ({ buttonName }: ButtonName) => {

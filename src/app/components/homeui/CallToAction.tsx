@@ -1,18 +1,18 @@
 "use client";
 import Button from "@/app/commonui/button/Button";
-// import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const CallToAction: React.FC = () => {
-  //   const router = useRouter();
+  const router = useRouter();
 
   //   const handleSignUp = () => {
   //     router.push("/signup");
   //   };
 
-  //   const handleBookSession = (): void => {
-  //     router.push("/book-session");
-  //   };
+  const handleBookSession = (): void => {
+    router.push("/bookSession");
+  };
 
   return (
     <section className="bg-gradient-to-r from-primary to-accent py-16 px-8 text-center text-white">
@@ -31,7 +31,7 @@ const CallToAction: React.FC = () => {
           ></Button>
           <Button
             buttonName="Book a Session"
-            // onClick={handleBookSession}
+            onClick={handleBookSession}
           ></Button>
         </div>
       </div>
