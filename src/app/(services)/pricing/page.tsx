@@ -1,4 +1,4 @@
-import Button from "@/app/commonui/Button";
+import Button from "@/app/commonui/button/Button";
 
 const PricingPage: React.FC = () => {
   return (

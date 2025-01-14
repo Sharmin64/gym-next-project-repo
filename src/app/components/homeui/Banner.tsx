@@ -1,11 +1,11 @@
 import Image from "next/image";
 import bannerImg from "@/assets/banner/banner-3.avif";
 import Link from "next/link";
-import Button from "@/app/commonui/Button";
+import Button from "@/app/commonui/button/Button";
 
 const Banner = () => {
   return (
-    <div className="relative w-full h-[70vh] bg-gray-900 ">
+    <div className="relative w-full h-[70vh] ">
       {/* Background Image */}
       <Image
         src={bannerImg} // Replace with your image path
@@ -20,9 +20,9 @@ const Banner = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
 
       {/* Content */}
-      <div className="relative z-20 flex items-center justify-between h-full px-8">
+      <div className="relative z-20 flex flex-col items-start pt-[12em] h-full px-8">
         <div className="text-white">
-          <h1 className="text-3xl font-bold">Welcome to Our Community</h1>
+          <h1 className="text-3xl font-bold">Build Your Strong Body!!!</h1>
           <p className="mt-2 text-lg">
             Join us to explore more and grow together.
           </p>

@@ -1,4 +1,4 @@
-import Button from "@/app/commonui/Button";
+import Button from "@/app/commonui/button/Button";
 import Link from "next/link";
 import React from "react";
 
@@ -40,7 +40,10 @@ const Navbar = () => {
                     <Link href={"/class"}>Class</Link>
                   </li>
                   <li>
-                    <Link href={"/class-details"}>Class Details</Link>
+                    <Link href={"/class-schedule"}>Class Schedule</Link>
+                  </li>
+                  <li>
+                    <Link href={"/sellingPoints"}>Selling Points</Link>
                   </li>
                 </ul>
               </details>
@@ -65,6 +68,9 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link href={"/exploreFeature"}>Explore Feature</Link>
+                  </li>
+                  <li>
+                    <Link href={"/fitnessProgramm"}>Programm</Link>
                   </li>
                   <li>
                     <Link href={"/pricing"}>PricingPlan</Link>
@@ -105,17 +111,33 @@ const Navbar = () => {
               <li>
                 <Link
                   href={"/class"}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-gray-200/50"
                 >
                   Class
                 </Link>
               </li>
               <li>
                 <Link
-                  href={"/class-details"}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  href={"/bookSession"}
+                  className="block px-4 py-2 hover:bg-gray-200/50"
                 >
-                  Class Details
+                  Book Session
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/class-schedule"}
+                  className="block px-4 py-2 hover:bg-gray-200/50"
+                >
+                  Class Schedule
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/sellingPoints"}
+                  className="block px-4 py-2 hover:bg-gray-200/50"
+                >
+                  Selling Points
                 </Link>
               </li>
             </ul>
@@ -130,7 +152,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href={"/features"}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-gray-200/50"
                 >
                   Features
                 </Link>
@@ -138,16 +160,34 @@ const Navbar = () => {
               <li>
                 <Link
                   href={"/exploreFeature"}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-gray-200/50"
                 >
                   Explore Feature
                 </Link>
               </li>
               <li>
-                <Link href={"/pricing"}>PricingPlan</Link>
+                <Link
+                  href={"/fitnessProgramm"}
+                  className="block px-4 py-2 hover:bg-gray-200/50"
+                >
+                  Programm Fitness
+                </Link>
               </li>
               <li>
-                <Link href={"/trainerProfile"}>Trainer Profile</Link>
+                <Link
+                  href={"/pricing"}
+                  className="block px-4 py-2 hover:bg-gray-200/50"
+                >
+                  PricingPlan
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/trainerProfile"}
+                  className="block px-4 py-2 hover:bg-gray-200/50"
+                >
+                  Trainer Profile
+                </Link>
               </li>
             </ul>
           </li>
@@ -161,7 +201,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href={"/login"}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-gray-200/50"
                 >
                   Login
                 </Link>
@@ -169,7 +209,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href={"/register"}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-gray-200/50"
                 >
                   Sign Up
                 </Link>
@@ -177,10 +217,10 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <Link href={"/about"}>About Us</Link>
+            <Link href={"/parallel/about-gym"}>About Us</Link>
           </li>
           <li>
-            <Link href={"/contact"}>Contact Us</Link>
+            <Link href={"/parallel"}>Contact Us</Link>
           </li>
         </ul>
       </div>

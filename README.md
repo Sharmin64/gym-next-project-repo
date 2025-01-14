@@ -41,7 +41,7 @@ The Feature Section of a fitness website should focus on providing a visually en
 Membership Plans: Display various membership tiers with pricing, features, and a "Join Now" button.----🏑👍
 Class Schedules: Interactive weekly schedules with filtering options (e.g., by time, class type, or instructor).👍🏑
 Trainer Profiles: Showcase trainers with their expertise, certifications, and client reviews.👍🏒
-Fitness Programs: Highlight different fitness programs like weight loss, strength training, yoga, etc.
+Fitness Programs: Highlight different fitness programs like weight loss, strength training, yoga, etc.🎇🏒👍
 2. Unique Selling Points (USPs)
 Key Benefits: Sections like "Why Choose Us?" with cards for features such as:
 State-of-the-art equipment.
@@ -67,3 +67,8 @@ Layout: Use a grid or card-based layout with bold typography and vibrant colors 
 Images/Videos: High-quality visuals of fitness activities, gym interiors, or transformation stories.
 Accessibility: Ensure responsive design and easy navigation.
 By integrating these features effectively, your fitness website can stand out and deliver a user-friendly experience. Let me know if you need specific UI/UX tips for implementation!
+<!-- todo list  -->
+<!-- ! 1...implementing exercise page on (class) folder  -->
+<!-- ! 2... create backend  server  to connect with next js client component . -->
+<!-- ! 3...make button component more attractive for common use -->
+<!-- ! 4...implement redux toolkit for api calling-->
