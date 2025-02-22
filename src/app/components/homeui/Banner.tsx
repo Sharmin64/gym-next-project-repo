@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bannerImg from "@/assets/banner/banner-3.avif";
+import bannerImg from "@/assets/banner/banner-G.webp";
 import Link from "next/link";
 import Button from "@/app/commonui/button/Button";
 

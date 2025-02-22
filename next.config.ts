@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  webpack: (config) => {
+    config.resolve.alias["react-slick"] = require.resolve("react-slick");
+    return config;
+  },
 };
 
 module.exports = nextConfig;

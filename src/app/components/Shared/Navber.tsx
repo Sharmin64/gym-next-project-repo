@@ -217,7 +217,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <Link href={"/parallel/about-gym"}>About Us</Link>
+            <Link href={"/parallel"}>About Us</Link>
           </li>
           <li>
             <Link href={"/parallel"}>Contact Us</Link>

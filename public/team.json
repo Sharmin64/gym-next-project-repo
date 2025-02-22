@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name": "John Doe", "role": "Head Coach", "image": "/trainer7.jpg" },
+    { "id": 2, "name": "Jane Smith", "role": "Yoga Instructor", "image": "/trainer8.jpg" },
+    { "id": 3, "name": "Mike Johnson", "role": "Strength Coach", "image": "/trainer9.jpg" }
+  ]
+  
